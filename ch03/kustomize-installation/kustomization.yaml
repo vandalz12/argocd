@@ -5,3 +5,5 @@ bases:
   - github.com/argoproj/argo-cd/manifests/cluster-install?ref=v2.5.5
 resources:
   - resources/namespace.yaml
+patchesStrategicMerge:
+  - patches/argocd-cm.yaml
