@@ -9,5 +9,5 @@ spec:
   project: default
   source:
     path: ch03/kustomize-installation
-    repoURL: git@github.com:vandalz12/argocd.git
+    repoURL: https://github.com/vandalz12/argocd.git
     targetRevision: main
