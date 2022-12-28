@@ -4,7 +4,3 @@ metadata:
   name: argocd-rbac-cm
 data:
   policy.default: role:readonly
-  policy.csv: |
-    p, role:user-update, accounts, update, *, allow
-    p: role:user-update, accounts, get, *, allow
-    g, alina, role:user-update
